@@ -183,7 +183,7 @@ foreach ($option as $v[1]) {
                                             }
                                         }
                                         if ($i === 11) {
-                                            echo implode(' ', $answer) . "\r\n";
+                                            echo implode(' ', $answer) . PHP_EOL;
                                             die;
                                         }
                                     }
